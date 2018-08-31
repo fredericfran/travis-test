@@ -2,6 +2,6 @@ dist: trusty
 sudo: false
 language: go
 go:
-  - "1.1"
+  - "1.10"
 install: ${TRAVIS_BUILD_DIR}/deploy/travis/install.sh
 script: ${TRAVIS_BUILD_DIR}/deploy/travis/script.sh
