@@ -5,7 +5,7 @@ set -ex
 install_go_deps() { 
 	pushd ${TRAVIS_BUILD_DIR}
 	cd src
-	go get -v ./...
+	go get -v -t ./...
 	popd
 }
 
