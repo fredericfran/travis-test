@@ -31,7 +31,6 @@ type Record struct {
 }
 
 func (book *Book) Add(record Record) error {
-	fmt.Printf("add called")
 	if err:=validateRecord(record); err != nil {
 		return err
 	}
